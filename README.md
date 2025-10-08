@@ -1,2 +1,2 @@
 # Learn-JS
-start learning javaScript by chai aur code
+start learning javaScript with chai aur code
