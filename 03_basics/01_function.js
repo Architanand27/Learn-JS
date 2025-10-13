@@ -37,4 +37,47 @@ function loginUserMessage(username = 'Guest ') { // default parameter: if no arg
 }
 
 // console.log(loginUserMessage("Archit"));
-console.log(loginUserMessage()); // username is undefined
+// console.log(loginUserMessage()); // username is undefined
+
+
+function calculateCartPrice(...prices) { // rest operator
+    // console.log(prices);
+    // let total = 0;
+    // for (let price of prices) {
+    //     total += price;
+    // }
+    // return total;
+
+    return prices;
+
+}
+
+// console.log(calculateCartPrice(20, 30, 40, 50, 60)); // [20, 30, 40, 50, 60]
+
+
+const user = {
+    username: "Electro",
+    price: 20000
+}
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject(user);
+// handleObject({
+//     username: "Bob",
+//     price: 10000
+// })
+
+const myNewArray = [20, 30, 40, 50, 60];
+
+function returnSecondElement(arr) {
+    return arr[1];
+}
+
+console.log(returnSecondElement(myNewArray)); // 30
+console.log(returnSecondElement([100, 200, 300])); // 200
+
+
+
+
