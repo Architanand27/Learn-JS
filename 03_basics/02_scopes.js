@@ -25,7 +25,21 @@ if(true){
     }
 }
 
+// ++++++++++++++++++ interesting ++++++++++++++++++
 
+
+console.log(addone(5)); // works fine because of hoisting
+
+function addone(num){
+    return num + 1
+}
+
+
+
+// addTwo(5) // error: Cannot access 'addTwo' before initialization
+const addTwo = function(num){
+    return num + 2
+}
 
 
 
